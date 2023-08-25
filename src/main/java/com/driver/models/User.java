@@ -40,8 +40,32 @@ public  class User {
         this.blogList = blogList;
     }
 
+    public Integer getId() {
+        return userId;
+    }
+
+    public void setId(Integer userId) {
+        this.userId = userId;
+    }
+
     public Integer getUserId() {
         return userId;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
     public void setUserId(Integer userId) {

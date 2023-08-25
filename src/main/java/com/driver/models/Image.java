@@ -32,6 +32,14 @@ public class Image{
         this.blog = blog;
     }
 
+    public Integer getId() {
+        return imageId;
+    }
+
+    public void setId(Integer imageId) {
+        this.imageId = imageId;
+    }
+
     public Integer getImageId() {
         return imageId;
     }
